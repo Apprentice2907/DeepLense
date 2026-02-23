@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
-from utils.dataset import DeepLenseDatasetSSL, DefaultDatasetSetupSSL
+from utils.dataset import LensDatasetSSL, DefaultDatasetSetupSSL
 from torch.utils.data import DataLoader, random_split
 
 from models.cnn_zoo import CustomResNet
